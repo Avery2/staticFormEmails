@@ -23,7 +23,7 @@ Make a google form with the same fields.
 
 ## Step 3
 
-We need to know what google calls these fields. Make a pre-filed form, fill with anything, and grab the link.
+We need to know what google calls these fields. Make a pre-filled form, fill with anything, and grab the link.
 
 ![alt text](https://github.com/toperkin/staticFormEmails/raw/master/prefilled.png "Pre-filled link")
 
@@ -51,7 +51,7 @@ Use the entry fields from the pre-filled link for your form name/ids, and set th
 
 ## Step 5
 
-Add some javascript to keep track of what happens after a submit
+Add some javascript to keep track of what happens after a submit.
 
 ```html
 <script src="assets/js/jquery.min.js"></script>
@@ -66,7 +66,7 @@ $('#gform').on('submit', function(e) {
 
 That's it.  You now have an html form that upon submit completes the google form (which can easily be set up to populate a spreadsheet and/or email you), but DOES NOT REDIRECT, instead just fades away and is replaces with a friendly message.
 
-## Demo:
+## Demo
 
 Here is some demo shots from a website I'm making:
 
